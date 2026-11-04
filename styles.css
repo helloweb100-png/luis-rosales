@@ -272,6 +272,9 @@ body.menu-abierto { overflow: hidden; }
 .hero-texto { display: grid; justify-items: start; gap: 1.2rem; padding-top: 1rem; }
 .hero-h1 { font-weight: 700; font-size: clamp(2.35rem, 10.6vw, 4.6rem); line-height: 1; letter-spacing: -.035em; color: #fff; text-wrap: balance; }
 .hero-h1 .acento { font-size: 1.08em; }
+.hero-tel { display: inline-flex; align-items: center; gap: .7rem; font-size: clamp(1.5rem, 6vw, 2.1rem); font-weight: 700; letter-spacing: -.02em; color: #fff; transition: color .4s; }
+.hero-tel .ico { color: var(--oro-2); }
+.hero-tel:hover { color: var(--oro-1); }
 .hero-lead { max-width: 34rem; font-size: clamp(1rem, 3.5vw, 1.18rem); line-height: 1.7; color: #cfcbbf; }
 .hero-cta { display: grid; gap: .8rem; width: 100%; margin-top: .4rem; }
 .hero-cta .btn { width: 100%; }
